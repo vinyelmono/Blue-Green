@@ -34,7 +34,7 @@ jobs:
 
       - name: Ejecutar prueba básica
         run: |
-          python -c "from app import crear_servidor; print('Código Valido')"
+          python -c "from app import crear_Servidor; print('Código Valido')"
 
   cd:
     name: Despliegue Blue Green
