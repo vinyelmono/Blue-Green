@@ -57,5 +57,5 @@ jobs:
 
       - name: Probar version Green en puerto 8800
         run: |
-          respuesta=$(curl --fail --silent http://localhost:8800)
+          respuesta=$(curl --fail --silent http://localhost:8800/health)
           echo "$respuesta"
